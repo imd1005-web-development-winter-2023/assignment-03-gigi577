@@ -20,21 +20,14 @@
     <link rel="icon" href="./images/favicon/rocket.svg" type="image/svg+xml" />
   </head>
   <body>
-    <!--
-
-      ADD YOUR ASSIGNMENT 03 CODE
-
-      YOU MAY REMOVE THE BOILERPLATE CODE BELOW
-
-      IMPORTANT CHECKLIST:
-
-      - Are users able to create and delete to do list items?
-      - Have you set a favicon? (included - but it's a rocket)
-      - Do you have a css reset file? (included)
-      - Has a team member conducted a code review and left a GitHub Issue in your repo?
-      - Have you conducted a code review and left a GitHub Issue on your team member's repo?
-
-    -->
+    <div id="myDIV" class="header">
+      <h2>Let's build your Todo list:)</h2>
+      <input type="text" id="myInput" placeholder="New reminder...">
+      <span onclick="newElement()" class="addBtn">Add</span>
+      <div id="date"></div>
+    </div>
+    
+    <ul id="list"></ul>
     <main>
       <div id="app"></div>
     </main>
